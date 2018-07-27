@@ -3,7 +3,7 @@ Docker container: CentOS 7 + Java 8 + Tomcat 8
 ## Build the image
 
 ```sh
-git clone https://github.com/kirillF/centos-tomcat.git
+git clone https://github.com/jvanetten/centos-tomcat.git
 cd centos-tomcat
 docker build -t kirillf/centos-tomcat .
 ```
